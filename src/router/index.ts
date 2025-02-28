@@ -1,15 +1,15 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import { useRouteStore } from '@/stores'
-import { constantRoutes, systemRoutes } from '@/router/route'
-import { setupRouterGuard } from '@/router/guard'
+import { createRouter, createWebHistory } from "vue-router";
+import { useRouteStore } from "@/stores";
+import { constantRoutes, systemRoutes } from "@/router/route";
+import { setupRouterGuard } from "@/router/guard";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.VITE_BASE || "/"), // Change this line
   routes: [...constantRoutes, ...systemRoutes],
   scrollBehavior: () => ({ left: 0, top: 0 }),
-})
+});
 
-setupRouterGuard(router)
+setupRouterGuard(router);
 
 /**
  * @description 重置路由
@@ -17,17 +17,17 @@ setupRouterGuard(router)
  */
 export function resetRouter() {
   try {
-    const routeStore = useRouteStore()
+    const routeStore = useRouteStore();
     routeStore.asyncRoutes.forEach((route) => {
-      const { name } = route
+      const { name } = route;
       if (name) {
-        router.hasRoute(name) && router.removeRoute(name)
+        router.hasRoute(name) && router.removeRoute(name);
       }
-    })
+    });
   } catch (error) {
     // 强制刷新浏览器也行，只是交互体验不是很好
-    window.location.reload()
+    window.location.reload();
   }
 }
 
-export default router
+export default router;
