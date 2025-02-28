@@ -1,0 +1,1 @@
+import{d as a,j as e,k as s,b as r,o as t}from"./index-BAyZi_co.js";const p=a({__name:"index",setup(a){const p=e(),n=s(),{params:o,query:d}=p,{path:u}=o;return n.replace({path:`/${u}`,query:d}),(a,e)=>(t(),r("div"))}});export{p as default};

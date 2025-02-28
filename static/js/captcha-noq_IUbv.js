@@ -1,0 +1,1 @@
+import{$ as t}from"./index-BAyZi_co.js";const a="/captcha";function n(){return t.get(`${a}/image`)}function e(n,e){return t.get(`${a}/mail?email=${n}&captchaVerification=${encodeURIComponent(e.captchaVerification||"")}`)}function i(n){return t.get(`${a}/behavior`,n)}function o(n){return t.post(`${a}/behavior`,n)}export{i as a,e as b,o as c,n as g};

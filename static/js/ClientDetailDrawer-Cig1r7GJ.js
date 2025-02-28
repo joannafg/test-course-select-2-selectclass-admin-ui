@@ -1,0 +1,1 @@
+import{_ as t}from"./ClientDetailDrawer.vue_vue_type_script_setup_true_lang-CRviEtzc.js";import"./GiCellStatus.vue_vue_type_script_setup_true_lang-27S6yIFO.js";import"./index-BAyZi_co.js";import"./GiCellTag.vue_vue_type_script_setup_true_lang-BFrLDIrR.js";import"./index-FaVgdj3V.js";import"./client-DWOcxWz8.js";import"./useDict-ConFaTXJ.js";export{t as default};

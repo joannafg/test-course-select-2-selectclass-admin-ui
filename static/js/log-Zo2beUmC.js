@@ -1,0 +1,1 @@
+import{$ as n}from"./index-BAyZi_co.js";const o="/system/log";function t(t){return n.get(`${o}`,t)}function r(t){return n.get(`${o}/${t}`)}function e(t){return n.download(`${o}/export/login`,t)}function a(t){return n.download(`${o}/export/operation`,t)}export{a,e,r as g,t as l};

@@ -1,0 +1,1 @@
+import{$ as t}from"./index-BAyZi_co.js";const n="/system/option";function r(r){return t.get(`${n}`,r)}function o(r){return t.put(`${n}`,r)}function u(r){return t.patch(`${n}/value`,r)}export{r as l,u as r,o as u};

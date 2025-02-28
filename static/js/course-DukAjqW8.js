@@ -1,0 +1,1 @@
+import{$ as n}from"./index-BAyZi_co.js";const t="/selectclass/course";function r(r){return n.get(`${t}`,r)}function e(r){return n.get(`${t}/${r}`)}function o(r){return n.post(`${t}`,r)}function u(r,e){return n.put(`${t}/${e}`,r)}function s(r){return n.del(`${t}/${r}`)}function a(r){return n.download(`${t}/export`,r)}export{o as a,s as d,a as e,e as g,r as l,u};

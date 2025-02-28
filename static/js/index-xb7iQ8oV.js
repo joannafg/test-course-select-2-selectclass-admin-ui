@@ -1,0 +1,1 @@
+import{_ as t}from"./index-DlCMJmH7.js";import{d as o,c as s,o as e}from"./index-BAyZi_co.js";const n=o({name:"AboutDocumentApi",__name:"index",setup:o=>(o,n)=>{const a=t;return e(),s(a,{src:"https://api.continew.top/doc.html"})}});export{n as default};

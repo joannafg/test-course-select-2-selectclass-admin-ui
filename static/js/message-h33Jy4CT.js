@@ -1,0 +1,1 @@
+import{$ as n}from"./index-BAyZi_co.js";const t="/system/message";function e(e){return n.get(`${t}`,e)}function r(e){return n.del(`${t}/${e}`)}function s(e){return n.patch(`${t}/read`,e)}function a(){return n.get(`${t}/unread`)}export{r as d,a as g,e as l,s as r};

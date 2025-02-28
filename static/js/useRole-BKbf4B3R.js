@@ -1,0 +1,1 @@
+import{r as a,aV as s}from"./index-BAyZi_co.js";function n(n){const o=a(!1),t=a([]);return{roleList:t,getRoleList:async()=>{try{o.value=!0;const a=await s();t.value=a.data,(null==n?void 0:n.onSuccess)&&n.onSuccess()}finally{o.value=!1}},loading:o}}export{n as u};

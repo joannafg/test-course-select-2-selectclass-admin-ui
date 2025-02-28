@@ -1,0 +1,1 @@
+import{$ as t}from"./index-BAyZi_co.js";const n="/system/file";function s(s){return t.get(`${n}`,s)}function e(s,e){return t.put(`${n}/${e}`,s)}function r(s){return t.del(`${n}/${s}`)}function u(){return t.get(`${n}/statistics`)}export{r as d,u as g,s as l,e as u};

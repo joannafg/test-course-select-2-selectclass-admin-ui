@@ -1,0 +1,1 @@
+import{_ as t}from"./index-DlCMJmH7.js";import{d as o,c as e,o as n}from"./index-BAyZi_co.js";const s=o({name:"AboutDocumentContiNew",__name:"index",setup:o=>(o,s)=>{const r=t;return n(),e(r,{src:"https://continew.top"})}});export{s as default};

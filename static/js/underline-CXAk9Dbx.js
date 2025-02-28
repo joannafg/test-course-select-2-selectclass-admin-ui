@@ -1,0 +1,1 @@
+const e="data:image/svg+xml,%3csvg%20viewBox='0%200%2048%2048'%20fill='none'%20stroke='currentColor'%20stroke-width='3'%20stroke-linecap='butt'%20stroke-linejoin='miter'%3e%3cpath%20d='M9%2041h30M13%205v17.5C13%2027%2015.5%2033%2024%2033s11-5%2011-10.5V5'%20/%3e%3c/svg%3e";export{e as default};

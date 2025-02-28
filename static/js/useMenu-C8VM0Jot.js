@@ -1,0 +1,1 @@
+import{r as n,aT as a}from"./index-BAyZi_co.js";function s(s){const t=n(!1),e=n([]);return{menuList:e,getMenuList:async n=>{try{t.value=!0;const i=await a({description:n});e.value=i.data,(null==s?void 0:s.onSuccess)&&s.onSuccess()}finally{t.value=!1}},loading:t}}export{s as u};
